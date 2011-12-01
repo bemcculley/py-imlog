@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chat xmlns="http://purl.org/net/ulf/ns/0.4-02" account="lwmatthews3" service="AIM"><event type="windowOpened" sender="lwmatthews3" time="2008-01-05T21:27:26-05:00"/>
+<message sender="aolsystemmsg" time="2008-01-05T21:27:28-05:00"><div><span style="font-family: Lucida Grande; font-size: 12pt;">Your screen name (lwmatthews3) is now signed into AOL(R) Instant Messenger (TM) in 2 locations. To sign off the other location(s), reply to this message with the number 1. Click <a href="http://www.aim.com/password/routing.adp">here</a> for more information.</span></div></message>
+<event type="windowClosed" sender="lwmatthews3" time="2008-01-05T21:28:07-05:00"/>
+</chat>

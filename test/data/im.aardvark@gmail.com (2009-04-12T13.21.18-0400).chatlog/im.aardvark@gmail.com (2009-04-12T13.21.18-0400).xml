@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chat xmlns="http://purl.org/net/ulf/ns/0.4-02" account="dustym" service="GTalk"><event type="windowOpened" sender="dustym" time="2009-04-12T13:21:18-04:00"/>
+<message sender="im.aardvark@gmail.com" time="2009-04-12T13:21:18-04:00" alias="Aaardvark"><div><br /><span style="font-family: Helvetica; font-size: 12pt;">You there? I have a question about <span style="font-weight: bold;">*government*</span>  that I think you might be able to answer.</span><br /><br /><span style="font-family: Helvetica; font-size: 12pt;">(Type &apos;sure&apos;, &apos;pass&apos;, or &apos;busy&apos;.)</span></div></message>
+<message sender="im.aardvark@gmail.com" time="2009-04-12T13:27:22-04:00" alias="Aaardvark"><div><br /><span style="font-family: Helvetica; font-size: 12pt;">Sorry I missed you.</span><br /><span style="font-family: Helvetica; font-size: 12pt;">Type &apos;sure&apos; to see if you can answer the question, or ask something yourself!</span></div></message>
+<status type="away" sender="im.aardvark@gmail.com" time="2009-04-13T19:03:59-04:00" alias="Aaardvark"/>
+<status type="away" sender="im.aardvark@gmail.com" time="2009-04-13T19:03:59-04:00" alias="Aaardvark"><div><span style="font-family: Helvetica; font-size: 12pt;">http://vark.com/friends - find your friends on Aardvark! (Or type &apos;help&apos;)</span></div></status>
+<status type="offline" sender="im.aardvark@gmail.com" time="2009-04-13T19:04:43-04:00" alias="Aaardvark"/>
+<status type="online" sender="im.aardvark@gmail.com" time="2009-04-13T19:13:30-04:00" alias="Aaardvark"/>
+<status type="online" sender="im.aardvark@gmail.com" time="2009-04-13T19:15:08-04:00" alias="Aaardvark"/>
+<status type="offline" sender="im.aardvark@gmail.com" time="2009-04-13T20:15:28-04:00" alias="Aaardvark"/>
+<status type="online" sender="im.aardvark@gmail.com" time="2009-04-13T20:17:04-04:00" alias="Aaardvark"/>
+<event type="windowClosed" sender="dustym" time="2009-04-14T04:39:42-04:00"/>
+</chat>
