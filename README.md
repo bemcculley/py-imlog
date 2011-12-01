@@ -23,4 +23,7 @@ for msg in log.messages:
 ```
 
 ### Dependencies
-(is8601)http://pypi.python.org/pypi/iso8601/0.1.4
+[is8601](http://pypi.python.org/pypi/iso8601/0.1.4)
+
+### License
+MIT
