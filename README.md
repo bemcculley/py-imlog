@@ -21,3 +21,6 @@ for msg in log.messages:
     print msg.text
     print msg.html
 ```
+
+### Dependencies
+(is8601)http://pypi.python.org/pypi/iso8601/0.1.4
