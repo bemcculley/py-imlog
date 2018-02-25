@@ -47,20 +47,21 @@ class IChatLog:
                     if send_id != '$null':
                         msg.sender = self.extract(send_id['ID'])
                         # ignore any weird senders
-                        if isinstance(msg.sender, str):
-                            text = self.extract(field['MessageText'], 1)
-                            if isinstance(text, dict):
-                                if isinstance(text['NS.string'], unicode):
-                                    msg.text = text['NS.string'].encode('utf8')
-                                else:
-                                    msg.text = text['NS.string']
+                        if isinstance(msg.sender, dict):
+                            msg.sender = msg.sender['NS.string']
+                        text = self.extract(field['MessageText'], 1)
+                        if isinstance(text, dict):
+                            if isinstance(text['NS.string'], unicode):
+                                msg.text = text['NS.string'].encode('utf8')
                             else:
-                                msg.text = text
+                                msg.text = text['NS.string']
+                        else:
+                            msg.text = text
 
-                            secs = int(self.extract(field['Time'])['NS.time'])
-                            nstime = datetime.datetime(2001, 1, 1)
-                            msg.time = nstime + datetime.timedelta(0, secs)
-                            self.messages.append(msg)
+                        secs = int(self.extract(field['Time'])['NS.time'])
+                        nstime = datetime.datetime(2001, 1, 1)
+                        msg.time = nstime + datetime.timedelta(0, secs)
+                        self.messages.append(msg)
 
         # neccessary?
         self.messages.sort(key=lambda msg: msg.time)
